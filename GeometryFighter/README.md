@@ -1,10 +1,8 @@
 # GeometryFighter
 
-SceneKit Demo Project
-
 # 效果
 
-![](https://github.com/songkuixi/GeometryFighter/blob/master/Resources/SCREENSHOT.png)
+![](https://github.com/songkuixi/SceneKitDemos/blob/master/GeometryFighter/SCREENSHOT.png)
 
 # 参考
 

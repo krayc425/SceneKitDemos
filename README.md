@@ -4,8 +4,12 @@ SceneKit Demo Projects, based on [3D Apple Games by Tutorials](https://www.raywe
 
 ## Demo Lists
 
-[Geometry Fighter]()
+### [Geometry Fighter](https://github.com/songkuixi/SceneKitDemos/tree/master/GeometryFighter)
 
-[Breaker]()
+![](https://github.com/songkuixi/SceneKitDemos/blob/master/GeometryFighter/SCREENSHOT.png)
+
+### [Breaker](https://github.com/songkuixi/SceneKitDemos/tree/master/Breaker)
+
+![](https://github.com/songkuixi/SceneKitDemos/blob/master/Breaker/SCREENSHOT.png)
 
 
