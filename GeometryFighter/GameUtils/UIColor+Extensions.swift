@@ -20,7 +20,7 @@
  * THE SOFTWARE.
  */
 
-#if os(iOS)
+#if os(iOS) || os(watchOS)
     import UIKit
     import SceneKit
     
@@ -45,36 +45,37 @@ let UIColorList:[UIColor] = [
     UIColor.teal
 ]
     
-    extension UIColor {
-        
-        public static func random() -> UIColor {
-            let maxValue = UIColorList.count
-            let rand = Int(arc4random_uniform(UInt32(maxValue)))
-            return UIColorList[rand]
-        }
-        
-        public static var lime: UIColor {
-            return UIColor(red: 0.0, green: 1.0, blue: 0.0, alpha: 1.0)
-        }
-        
-        public static var silver: UIColor {
-            return UIColor(red: 192/255, green: 192/255, blue: 192/255, alpha: 1.0)
-        }
-        
-        public static var maroon: UIColor {
-            return UIColor(red: 0.5, green: 0.0, blue: 0.0, alpha: 1.0)
-        }
-        
-        public static var olive: UIColor {
-            return UIColor(red: 0.5, green: 0.5, blue: 0.0, alpha: 1.0)
-        }
-        
-        public static var teal: UIColor {
-            return UIColor(red: 0.0, green: 0.5, blue: 0.5, alpha: 1.0)
-        }
-        
-        public static var navy: UIColor {
-            return UIColor(red: 0.0, green: 0.0, blue: 128, alpha: 1.0)
-        }
+extension UIColor {
+    
+    public static func random() -> UIColor {
+        let maxValue = UIColorList.count
+        let rand = Int(arc4random_uniform(UInt32(maxValue)))
+        return UIColorList[rand]
     }
+    
+    public static var lime: UIColor {
+        return UIColor(red: 0.0, green: 1.0, blue: 0.0, alpha: 1.0)
+    }
+    
+    public static var silver: UIColor {
+        return UIColor(red: 192/255, green: 192/255, blue: 192/255, alpha: 1.0)
+    }
+    
+    public static var maroon: UIColor {
+        return UIColor(red: 0.5, green: 0.0, blue: 0.0, alpha: 1.0)
+    }
+    
+    public static var olive: UIColor {
+        return UIColor(red: 0.5, green: 0.5, blue: 0.0, alpha: 1.0)
+    }
+    
+    public static var teal: UIColor {
+        return UIColor(red: 0.0, green: 0.5, blue: 0.5, alpha: 1.0)
+    }
+    
+    public static var navy: UIColor {
+        return UIColor(red: 0.0, green: 0.0, blue: 128, alpha: 1.0)
+    }
+}
+    
 #endif
