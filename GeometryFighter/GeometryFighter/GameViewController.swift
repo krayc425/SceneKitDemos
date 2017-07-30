@@ -48,7 +48,7 @@ class GameViewController: UIViewController {
         scnView.scene = scnScene
         scnScene.background.contents = "GeometryFighter.scnassets/Textures/Background_Diffuse.png"
         /// 会在底部打开一个实时的统计数据的面板
-        scnView.showsStatistics = true
+//        scnView.showsStatistics = true
         /// (不)允许用户使用简单的手势来控制摄像机
         scnView.allowsCameraControl = false
         /// 会自动给我们的场景添加一个全方向的灯光，这样暂时我们就不需要自己来添加灯光了

@@ -10,6 +10,10 @@ SceneKit Demo Projects, based on [3D Apple Games by Tutorials](https://www.raywe
 
 ### [Breaker](https://github.com/songkuixi/SceneKitDemos/tree/master/Breaker)
 
-![](https://github.com/songkuixi/SceneKitDemos/blob/master/Breaker/SCREENSHOT.png)
+![](https://github.com/songkuixi/SceneKitDemos/blob/master/Breaker/SCREENSHOT.PNG)
 
+
+### [MarbleMaze](https://github.com/songkuixi/SceneKitDemos/tree/master/MarbleMaze)
+
+![](https://github.com/songkuixi/SceneKitDemos/blob/master/MarbleMaze/SCREENSHOT.PNG)
 

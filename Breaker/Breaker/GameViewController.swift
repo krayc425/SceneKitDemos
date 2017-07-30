@@ -51,6 +51,8 @@ class GameViewController: UIViewController {
     func setupScene() {
         scnView = self.view as! SCNView
         scnView.delegate = self
+        /// hide the panel
+        scnView.showsStatistics = false
         
         scnScene = SCNScene(named: "Breaker.scnassets/Scenes/Game.scn")
         scnView.scene = scnScene
