@@ -1,5 +1,5 @@
-/*
- * Copyright (c) 2015 Razeware LLC
+/**
+ * Copyright (c) 2016 Razeware LLC
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -65,17 +65,23 @@ class GameHelper {
         let defaults = UserDefaults.standard
         defaults.set(lastScore, forKey: "lastScore")
         defaults.set(highScore, forKey: "highScore")
-        UserDefaults.standard.synchronize()
     }
     
-    func getScoreString(length:Int) -> String {
+    func getScoreString(_ length:Int) -> String {
         return String(format: "%0\(length)d", score)
     }
-   
+    
     func initHUD() {
         
         let skScene = SKScene(size: CGSize(width: 500, height: 100))
-        skScene.backgroundColor = UIColor(white: 0.0, alpha: 0.0)
+        
+        #if os(iOS)
+            skScene.backgroundColor = UIColor(white: 0.0, alpha: 0.0)
+        #endif
+        
+        #if os(macOS)
+            skScene.backgroundColor = NSColor(white: 0.0, alpha: 0.0)
+        #endif
         
         labelNode = SKLabelNode(fontNamed: "Menlo-Bold")
         labelNode.fontSize = 48
@@ -86,7 +92,7 @@ class GameHelper {
         
         let plane = SCNPlane(width: 5, height: 1)
         let material = SCNMaterial()
-        material.lightingModel = SCNMaterial.LightingModel.constant
+        material.lightingModel = .constant
         material.isDoubleSided = true
         material.diffuse.contents = skScene
         plane.materials = [material]
@@ -102,13 +108,14 @@ class GameHelper {
         labelNode.text = "❤️\(lives)  😎\(highScoreFormatted) 💥\(scoreFormatted)"
     }
     
-    func loadSound(name:String, fileNamed:String) {
-        let sound = SCNAudioSource(fileNamed: fileNamed)
-        sound?.load()
-        sounds[name] = sound
+    func loadSound(_ name:String, fileNamed:String) {
+        if let sound = SCNAudioSource(fileNamed: fileNamed) {
+            sound.load()
+            sounds[name] = sound
+        }
     }
     
-    func playSound(node:SCNNode, name:String) {
+    func playSound(_ node:SCNNode, name:String) {
         let sound = sounds[name]
         node.runAction(SCNAction.playAudio(sound!, waitForCompletion: false))
     }
@@ -118,7 +125,7 @@ class GameHelper {
         lives = 3
     }
     
-    func shakeNode(node:SCNNode) {
+    func shakeNode(_ node:SCNNode) {
         let left = SCNAction.move(by: SCNVector3(x: -0.2, y: 0.0, z: 0.0), duration: 0.05)
         let right = SCNAction.move(by: SCNVector3(x: 0.2, y: 0.0, z: 0.0), duration: 0.05)
         let up = SCNAction.move(by: SCNVector3(x: 0.0, y: 0.2, z: 0.0), duration: 0.05)

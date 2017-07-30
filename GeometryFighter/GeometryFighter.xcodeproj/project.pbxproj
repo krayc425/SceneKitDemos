@@ -22,6 +22,27 @@
 		248232841F2BA21200DEDF11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248232821F2BA21200DEDF11 /* Main.storyboard */; };
 		248232861F2BA21200DEDF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248232851F2BA21200DEDF11 /* Assets.xcassets */; };
 		248232891F2BA21200DEDF11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248232871F2BA21200DEDF11 /* LaunchScreen.storyboard */; };
+		2491A1FA1F2E200100A8645F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2491A1F91F2E200100A8645F /* AppDelegate.swift */; };
+		2491A2021F2E200100A8645F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2491A2011F2E200100A8645F /* Assets.xcassets */; };
+		2491A2051F2E200100A8645F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2491A2031F2E200100A8645F /* MainMenu.xib */; };
+		2491A20C1F2E205500A8645F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2425B50D1F2C4BD6003A6A7F /* spark.png */; };
+		2491A20D1F2E205500A8645F /* Trail.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 2425B50E1F2C4BD6003A6A7F /* Trail.scnp */; };
+		2491A20E1F2E205500A8645F /* Explode.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 2425B5111F2C507C003A6A7F /* Explode.scnp */; };
+		2491A20F1F2E205E00A8645F /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425B4FE1F2C426C003A6A7F /* Int+Extensions.swift */; };
+		2491A2101F2E205E00A8645F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425B4FF1F2C426C003A6A7F /* UIColor+Extensions.swift */; };
+		2491A2111F2E205E00A8645F /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425B5001F2C426C003A6A7F /* GameHelper.swift */; };
+		2491A2121F2E205E00A8645F /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425B5011F2C426C003A6A7F /* SCNAction+Extensions.swift */; };
+		2491A2131F2E205E00A8645F /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425B5021F2C426C003A6A7F /* Generics.swift */; };
+		2491A2141F2E205E00A8645F /* Float+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425B5031F2C426C003A6A7F /* Float+Extensions.swift */; };
+		2491A2151F2E205E00A8645F /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425B5041F2C426C003A6A7F /* Double+Extensions.swift */; };
+		2491A2161F2E206000A8645F /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DE28D91F2BA8A4006821FD /* Shape.swift */; };
+		2491A2171F2E206200A8645F /* GeometryFighter.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DE28D71F2BA623006821FD /* GeometryFighter.scnassets */; };
+		2491A2191F2E215E00A8645F /* NSColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2491A2181F2E215E00A8645F /* NSColor+Extensions.swift */; };
+		2491A21A1F2E215E00A8645F /* NSColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2491A2181F2E215E00A8645F /* NSColor+Extensions.swift */; };
+		2491A21C1F2E21AD00A8645F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2491A21B1F2E21AD00A8645F /* GameView.swift */; };
+		2491A21D1F2E21AD00A8645F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2491A21B1F2E21AD00A8645F /* GameView.swift */; };
+		2491A21F1F2E21BB00A8645F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2491A21E1F2E21BB00A8645F /* GameViewController.swift */; };
+		2491A2201F2E21BB00A8645F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2491A21E1F2E21BB00A8645F /* GameViewController.swift */; };
 		24DE28D81F2BA63D006821FD /* GeometryFighter.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DE28D71F2BA623006821FD /* GeometryFighter.scnassets */; };
 		24DE28DA1F2BA8A4006821FD /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DE28D91F2BA8A4006821FD /* Shape.swift */; };
 /* End PBXBuildFile section */
@@ -44,12 +65,28 @@
 		248232851F2BA21200DEDF11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		248232881F2BA21200DEDF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2482328A1F2BA21200DEDF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2491A1F71F2E200100A8645F /* GeometryFighterMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryFighterMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2491A1F91F2E200100A8645F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2491A2011F2E200100A8645F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2491A2041F2E200100A8645F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2491A2061F2E200100A8645F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2491A2071F2E200100A8645F /* GeometryFighterMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeometryFighterMac.entitlements; sourceTree = "<group>"; };
+		2491A2181F2E215E00A8645F /* NSColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+Extensions.swift"; sourceTree = "<group>"; };
+		2491A21B1F2E21AD00A8645F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		2491A21E1F2E21BB00A8645F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		24DE28D71F2BA623006821FD /* GeometryFighter.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = GeometryFighter.scnassets; sourceTree = "<group>"; };
 		24DE28D91F2BA8A4006821FD /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		248232761F2BA21200DEDF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2491A1F41F2E200100A8645F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,6 +106,7 @@
 				2425B5021F2C426C003A6A7F /* Generics.swift */,
 				2425B5031F2C426C003A6A7F /* Float+Extensions.swift */,
 				2425B5041F2C426C003A6A7F /* Double+Extensions.swift */,
+				2491A2181F2E215E00A8645F /* NSColor+Extensions.swift */,
 			);
 			path = GameUtils;
 			sourceTree = "<group>";
@@ -86,7 +124,9 @@
 		248232701F2BA21200DEDF11 = {
 			isa = PBXGroup;
 			children = (
+				2491A20B1F2E202A00A8645F /* Shared */,
 				2482327B1F2BA21200DEDF11 /* GeometryFighter */,
+				2491A1F81F2E200100A8645F /* GeometryFighterMac */,
 				2482327A1F2BA21200DEDF11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				248232791F2BA21200DEDF11 /* GeometryFighter.app */,
+				2491A1F71F2E200100A8645F /* GeometryFighterMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,18 +143,39 @@
 		2482327B1F2BA21200DEDF11 /* GeometryFighter */ = {
 			isa = PBXGroup;
 			children = (
-				2425B50C1F2C4BA5003A6A7F /* Particle */,
-				2425B4FD1F2C426C003A6A7F /* GameUtils */,
 				2482327C1F2BA21200DEDF11 /* AppDelegate.swift */,
 				248232801F2BA21200DEDF11 /* GameViewController.swift */,
-				24DE28D91F2BA8A4006821FD /* Shape.swift */,
 				248232821F2BA21200DEDF11 /* Main.storyboard */,
 				248232851F2BA21200DEDF11 /* Assets.xcassets */,
-				24DE28D71F2BA623006821FD /* GeometryFighter.scnassets */,
 				248232871F2BA21200DEDF11 /* LaunchScreen.storyboard */,
 				2482328A1F2BA21200DEDF11 /* Info.plist */,
 			);
 			path = GeometryFighter;
+			sourceTree = "<group>";
+		};
+		2491A1F81F2E200100A8645F /* GeometryFighterMac */ = {
+			isa = PBXGroup;
+			children = (
+				2491A1F91F2E200100A8645F /* AppDelegate.swift */,
+				2491A2011F2E200100A8645F /* Assets.xcassets */,
+				2491A2031F2E200100A8645F /* MainMenu.xib */,
+				2491A2061F2E200100A8645F /* Info.plist */,
+				2491A2071F2E200100A8645F /* GeometryFighterMac.entitlements */,
+				2491A21B1F2E21AD00A8645F /* GameView.swift */,
+				2491A21E1F2E21BB00A8645F /* GameViewController.swift */,
+			);
+			path = GeometryFighterMac;
+			sourceTree = "<group>";
+		};
+		2491A20B1F2E202A00A8645F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2425B50C1F2C4BA5003A6A7F /* Particle */,
+				2425B4FD1F2C426C003A6A7F /* GameUtils */,
+				24DE28D91F2BA8A4006821FD /* Shape.swift */,
+				24DE28D71F2BA623006821FD /* GeometryFighter.scnassets */,
+			);
+			name = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +198,23 @@
 			productReference = 248232791F2BA21200DEDF11 /* GeometryFighter.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2491A1F61F2E200100A8645F /* GeometryFighterMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2491A20A1F2E200100A8645F /* Build configuration list for PBXNativeTarget "GeometryFighterMac" */;
+			buildPhases = (
+				2491A1F31F2E200100A8645F /* Sources */,
+				2491A1F41F2E200100A8645F /* Frameworks */,
+				2491A1F51F2E200100A8645F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometryFighterMac;
+			productName = GeometryFighterMac;
+			productReference = 2491A1F71F2E200100A8645F /* GeometryFighterMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,6 +226,9 @@
 				ORGANIZATIONNAME = "宋 奎熹";
 				TargetAttributes = {
 					248232781F2BA21200DEDF11 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					2491A1F61F2E200100A8645F = {
 						CreatedOnToolsVersion = 9.0;
 					};
 				};
@@ -165,6 +247,7 @@
 			projectRoot = "";
 			targets = (
 				248232781F2BA21200DEDF11 /* GeometryFighter */,
+				2491A1F61F2E200100A8645F /* GeometryFighterMac */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +267,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2491A1F51F2E200100A8645F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2491A20D1F2E205500A8645F /* Trail.scnp in Resources */,
+				2491A2021F2E200100A8645F /* Assets.xcassets in Resources */,
+				2491A2171F2E206200A8645F /* GeometryFighter.scnassets in Resources */,
+				2491A20C1F2E205500A8645F /* spark.png in Resources */,
+				2491A2051F2E200100A8645F /* MainMenu.xib in Resources */,
+				2491A20E1F2E205500A8645F /* Explode.scnp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,12 +291,34 @@
 				2425B5091F2C4532003A6A7F /* Generics.swift in Sources */,
 				2425B5061F2C4532003A6A7F /* UIColor+Extensions.swift in Sources */,
 				2425B5051F2C4532003A6A7F /* Int+Extensions.swift in Sources */,
+				2491A21F1F2E21BB00A8645F /* GameViewController.swift in Sources */,
 				2425B50B1F2C4532003A6A7F /* Double+Extensions.swift in Sources */,
+				2491A2191F2E215E00A8645F /* NSColor+Extensions.swift in Sources */,
 				24DE28DA1F2BA8A4006821FD /* Shape.swift in Sources */,
 				2425B5081F2C4532003A6A7F /* SCNAction+Extensions.swift in Sources */,
 				2482327D1F2BA21200DEDF11 /* AppDelegate.swift in Sources */,
 				2425B50A1F2C4532003A6A7F /* Float+Extensions.swift in Sources */,
+				2491A21C1F2E21AD00A8645F /* GameView.swift in Sources */,
 				2425B5071F2C4532003A6A7F /* GameHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2491A1F31F2E200100A8645F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2491A2131F2E205E00A8645F /* Generics.swift in Sources */,
+				2491A21A1F2E215E00A8645F /* NSColor+Extensions.swift in Sources */,
+				2491A2101F2E205E00A8645F /* UIColor+Extensions.swift in Sources */,
+				2491A20F1F2E205E00A8645F /* Int+Extensions.swift in Sources */,
+				2491A2201F2E21BB00A8645F /* GameViewController.swift in Sources */,
+				2491A2151F2E205E00A8645F /* Double+Extensions.swift in Sources */,
+				2491A21D1F2E21AD00A8645F /* GameView.swift in Sources */,
+				2491A2161F2E206000A8645F /* Shape.swift in Sources */,
+				2491A2121F2E205E00A8645F /* SCNAction+Extensions.swift in Sources */,
+				2491A1FA1F2E200100A8645F /* AppDelegate.swift in Sources */,
+				2491A2141F2E205E00A8645F /* Float+Extensions.swift in Sources */,
+				2491A2111F2E205E00A8645F /* GameHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +339,14 @@
 				248232881F2BA21200DEDF11 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2491A2031F2E200100A8645F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2491A2041F2E200100A8645F /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -357,6 +483,42 @@
 			};
 			name = Release;
 		};
+		2491A2081F2E200100A8645F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GeometryFighterMac/GeometryFighterMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VEBQ28K9EA;
+				INFOPLIST_FILE = GeometryFighterMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krayc.GeometryFighterMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		2491A2091F2E200100A8645F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GeometryFighterMac/GeometryFighterMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VEBQ28K9EA;
+				INFOPLIST_FILE = GeometryFighterMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krayc.GeometryFighterMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -377,6 +539,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		2491A20A1F2E200100A8645F /* Build configuration list for PBXNativeTarget "GeometryFighterMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2491A2081F2E200100A8645F /* Debug */,
+				2491A2091F2E200100A8645F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

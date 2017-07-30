@@ -1,6 +1,6 @@
 # SceneKitDemos
 
-SceneKit Demo Projects, based on [3D Apple Games by Tutorials](https://www.raywenderlich.com/store/3d-ios-games-by-tutorials)
+SceneKit Demo Projects, based on [3D Apple Games by Tutorials](https://www.raywenderlich.com/store/3d-ios-games-by-tutorials), and the stub codes can be downloaded from [GitHub](https://github.com/XanderXu/3D-iOS-Games-by-Tutorials-code).
 
 ## Demo Lists
 

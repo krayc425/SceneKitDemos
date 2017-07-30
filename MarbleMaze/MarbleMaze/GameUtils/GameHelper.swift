@@ -73,7 +73,7 @@ class GameHelper {
     let skScene = SKScene(size: CGSize(width: 1000, height: 100))
     skScene.backgroundColor = UIColor(white: 0.0, alpha: 0.0)
     
-    labelNode = SKLabelNode(fontNamed: "Verdana-Bold ")
+    labelNode = SKLabelNode(fontNamed: "PingFangSC-Regular")
     labelNode.fontSize = 45
     labelNode.position.y = 50
     labelNode.position.x = 500
