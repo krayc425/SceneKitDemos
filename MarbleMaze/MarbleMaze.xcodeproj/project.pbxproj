@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2411BAF71F2EF2B0000E4197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2411BAF61F2EF2AF000E4197 /* Assets.xcassets */; };
+		2468886C1F2F33660083B9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2468886B1F2F33630083B9E8 /* Assets.xcassets */; };
 		2485C4F81F2D9EC500668F81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2485C4F71F2D9EC500668F81 /* AppDelegate.swift */; };
 		2485C4FC1F2D9EC500668F81 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2485C4FB1F2D9EC500668F81 /* GameViewController.swift */; };
 		2485C4FF1F2D9EC500668F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2485C4FD1F2D9EC500668F81 /* Main.storyboard */; };
@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2411BAF61F2EF2AF000E4197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../JapaneseWordbook/3D-iOS-Games-by-Tutorials-code/3D_Apple_Games_by_Tutorials_v2.0.1/15-motion-control/final/MarbleMaze/MarbleMaze/Assets.xcassets"; sourceTree = "<group>"; };
+		2468886B1F2F33630083B9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2485C4F41F2D9EC500668F81 /* MarbleMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2485C4F71F2D9EC500668F81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2485C4FB1F2D9EC500668F81 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 				248C0DAD1F2DCFBF0016C8F7 /* GameUtils */,
 				248C0DA81F2DCFBF0016C8F7 /* Sounds */,
 				2485C4FD1F2D9EC500668F81 /* Main.storyboard */,
-				2411BAF61F2EF2AF000E4197 /* Assets.xcassets */,
+				2468886B1F2F33630083B9E8 /* Assets.xcassets */,
 				2485C5021F2D9EC500668F81 /* LaunchScreen.storyboard */,
 				2485C5051F2D9EC500668F81 /* Info.plist */,
 			);
@@ -174,7 +174,7 @@
 				2485C4FF1F2D9EC500668F81 /* Main.storyboard in Resources */,
 				248C0DBA1F2DCFD00016C8F7 /* Bump.wav in Resources */,
 				248C0DBC1F2DCFD00016C8F7 /* GameOver.wav in Resources */,
-				2411BAF71F2EF2B0000E4197 /* Assets.xcassets in Resources */,
+				2468886C1F2F33660083B9E8 /* Assets.xcassets in Resources */,
 				248C0DB91F2DCFD00016C8F7 /* Powerup.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

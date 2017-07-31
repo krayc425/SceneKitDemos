@@ -23,8 +23,8 @@
 import Foundation
 import CoreGraphics
 
-let DegreesPerRadians = Float(M_PI/180)
-let RadiansPerDegrees = Float(180/M_PI)
+let DegreesPerRadians = Float(Double.pi/180)
+let RadiansPerDegrees = Float(180/Double.pi)
 
 func convertToRadians(angle:Float) -> Float {
     return angle * DegreesPerRadians

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2411BAF91F2EF30F000E4197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2411BAF81F2EF30F000E4197 /* Assets.xcassets */; };
 		2425B5051F2C4532003A6A7F /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425B4FE1F2C426C003A6A7F /* Int+Extensions.swift */; };
 		2425B5061F2C4532003A6A7F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425B4FF1F2C426C003A6A7F /* UIColor+Extensions.swift */; };
 		2425B5071F2C4532003A6A7F /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425B5001F2C426C003A6A7F /* GameHelper.swift */; };
@@ -18,6 +17,7 @@
 		2425B50F1F2C4BD6003A6A7F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2425B50D1F2C4BD6003A6A7F /* spark.png */; };
 		2425B5101F2C4BD6003A6A7F /* Trail.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 2425B50E1F2C4BD6003A6A7F /* Trail.scnp */; };
 		2425B5121F2C507C003A6A7F /* Explode.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 2425B5111F2C507C003A6A7F /* Explode.scnp */; };
+		2468886E1F2F339F0083B9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2468886D1F2F33990083B9E8 /* Assets.xcassets */; };
 		2482327D1F2BA21200DEDF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2482327C1F2BA21200DEDF11 /* AppDelegate.swift */; };
 		248232811F2BA21200DEDF11 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248232801F2BA21200DEDF11 /* GameViewController.swift */; };
 		248232841F2BA21200DEDF11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248232821F2BA21200DEDF11 /* Main.storyboard */; };
@@ -105,7 +105,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2411BAF81F2EF30F000E4197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../JapaneseWordbook/3D-iOS-Games-by-Tutorials-code/3D_Apple_Games_by_Tutorials_v2.0.1/18-watchos-games/final/GeometryFighter/GeometryFighterWatch/Assets.xcassets"; sourceTree = "<group>"; };
 		2425B4FE1F2C426C003A6A7F /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
 		2425B4FF1F2C426C003A6A7F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		2425B5001F2C426C003A6A7F /* GameHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
@@ -116,6 +115,7 @@
 		2425B50D1F2C4BD6003A6A7F /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		2425B50E1F2C4BD6003A6A7F /* Trail.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Trail.scnp; sourceTree = "<group>"; };
 		2425B5111F2C507C003A6A7F /* Explode.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Explode.scnp; sourceTree = "<group>"; };
+		2468886D1F2F33990083B9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		248232791F2BA21200DEDF11 /* GeometryFighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryFighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2482327C1F2BA21200DEDF11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		248232801F2BA21200DEDF11 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -258,8 +258,8 @@
 		2491A2241F2E26F400A8645F /* GeometryFighterWatch */ = {
 			isa = PBXGroup;
 			children = (
-				2411BAF81F2EF30F000E4197 /* Assets.xcassets */,
 				2491A2251F2E26F400A8645F /* Interface.storyboard */,
+				2468886D1F2F33990083B9E8 /* Assets.xcassets */,
 				2491A22A1F2E26F400A8645F /* Info.plist */,
 			);
 			path = GeometryFighterWatch;
@@ -426,7 +426,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2411BAF91F2EF30F000E4197 /* Assets.xcassets in Resources */,
+				2468886E1F2F339F0083B9E8 /* Assets.xcassets in Resources */,
 				2491A2271F2E26F400A8645F /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2447D26D1F2CF09700D6AD1D /* GameUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2447D26C1F2CF09700D6AD1D /* GameUtils.swift */; };
 		2447D26F1F2CF0D200D6AD1D /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2447D26E1F2CF0D200D6AD1D /* SCNVector3+Extensions.swift */; };
+		246888701F2F34C10083B9E8 /* Breaker.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2468886F1F2F34030083B9E8 /* Breaker.scnassets */; };
 		2475308B1F2C76A400847002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475308A1F2C76A400847002 /* AppDelegate.swift */; };
 		2475308F1F2C76A500847002 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475308E1F2C76A500847002 /* GameViewController.swift */; };
 		247530921F2C76A500847002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247530901F2C76A500847002 /* Main.storyboard */; };
@@ -16,12 +17,12 @@
 		247530971F2C76A500847002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247530951F2C76A500847002 /* LaunchScreen.storyboard */; };
 		247530A81F2C7C7D00847002 /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247530A11F2C7C7800847002 /* GameHelper.swift */; };
 		247530A91F2C7C7D00847002 /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247530A21F2C7C7800847002 /* SCNAction+Extensions.swift */; };
-		247530AE1F2C7DD400847002 /* Breaker.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 247530AD1F2C7DD400847002 /* Breaker.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2447D26C1F2CF09700D6AD1D /* GameUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUtils.swift; sourceTree = "<group>"; };
 		2447D26E1F2CF0D200D6AD1D /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		2468886F1F2F34030083B9E8 /* Breaker.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Breaker.scnassets; sourceTree = "<group>"; };
 		247530871F2C76A400847002 /* Breaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2475308A1F2C76A400847002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2475308E1F2C76A500847002 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		247530981F2C76A500847002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		247530A11F2C7C7800847002 /* GameHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
 		247530A21F2C7C7800847002 /* SCNAction+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNAction+Extensions.swift"; sourceTree = "<group>"; };
-		247530AD1F2C7DD400847002 /* Breaker.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = Breaker.scnassets; path = "../../../../../../Downloads/breaker-master/Breaker/Breaker.scnassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 				2475309E1F2C7C7800847002 /* GameUtils */,
 				247530901F2C76A500847002 /* Main.storyboard */,
 				247530931F2C76A500847002 /* Assets.xcassets */,
-				247530AD1F2C7DD400847002 /* Breaker.scnassets */,
+				2468886F1F2F34030083B9E8 /* Breaker.scnassets */,
 				247530951F2C76A500847002 /* LaunchScreen.storyboard */,
 				247530981F2C76A500847002 /* Info.plist */,
 			);
@@ -147,7 +147,7 @@
 			files = (
 				247530971F2C76A500847002 /* LaunchScreen.storyboard in Resources */,
 				247530941F2C76A500847002 /* Assets.xcassets in Resources */,
-				247530AE1F2C7DD400847002 /* Breaker.scnassets in Resources */,
+				246888701F2F34C10083B9E8 /* Breaker.scnassets in Resources */,
 				247530921F2C76A500847002 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
