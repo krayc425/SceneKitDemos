@@ -20,15 +20,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="MarbleMaze_Splash" translatesAutoresizingMaskIntoConstraints="NO" id="uii-2f-1n2">
+                            <imageView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="MrPig_Launch" translatesAutoresizingMaskIntoConstraints="NO" id="BDK-ee-DCu">
                                 <rect key="frame" x="50" y="77.5" width="275" height="512"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="uii-2f-1n2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="50" id="M27-lC-1yQ"/>
-                            <constraint firstItem="uii-2f-1n2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="OCo-WZ-MYd"/>
-                            <constraint firstItem="uii-2f-1n2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Tbe-aR-mnu"/>
+                            <constraint firstItem="BDK-ee-DCu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="O9Z-Vd-rmp"/>
+                            <constraint firstItem="BDK-ee-DCu" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="50" id="YCV-Xc-oK3"/>
+                            <constraint firstItem="BDK-ee-DCu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wp8-Qz-XYl"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -38,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="MarbleMaze_Splash" width="512" height="512"/>
+        <image name="MrPig_Launch" width="512" height="512"/>
     </resources>
 </document>
