@@ -12,10 +12,10 @@
 		2411BAEA1F2EEC10000E4197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2411BAE81F2EEC10000E4197 /* Main.storyboard */; };
 		2411BAEC1F2EEC10000E4197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2411BAEB1F2EEC10000E4197 /* Assets.xcassets */; };
 		2411BAEF1F2EEC10000E4197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2411BAED1F2EEC10000E4197 /* LaunchScreen.storyboard */; };
+		246888631F2F32BC0083B9E8 /* MrPig.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 246888621F2F32B90083B9E8 /* MrPig.scnassets */; };
 		24AB62751F2EF35D00B8CE3B /* GameUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB62721F2EF35D00B8CE3B /* GameUtils.swift */; };
 		24AB62761F2EF35D00B8CE3B /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB62731F2EF35D00B8CE3B /* GameHelper.swift */; };
 		24AB62771F2EF35D00B8CE3B /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB62741F2EF35D00B8CE3B /* SCNAction+Extensions.swift */; };
-		24AB627B1F2EF39400B8CE3B /* MrPig.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AB627A1F2EF39300B8CE3B /* MrPig.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		2411BAEB1F2EEC10000E4197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2411BAEE1F2EEC10000E4197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2411BAF01F2EEC10000E4197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246888621F2F32B90083B9E8 /* MrPig.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = MrPig.scnassets; sourceTree = "<group>"; };
 		24AB62721F2EF35D00B8CE3B /* GameUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameUtils.swift; sourceTree = "<group>"; };
 		24AB62731F2EF35D00B8CE3B /* GameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
 		24AB62741F2EF35D00B8CE3B /* SCNAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNAction+Extensions.swift"; sourceTree = "<group>"; };
-		24AB627A1F2EF39300B8CE3B /* MrPig.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = MrPig.scnassets; path = "../../../JapaneseWordbook/3D-iOS-Games-by-Tutorials-code/3D_Apple_Games_by_Tutorials_v2.0.1/19-transitions/final/Mr.Pig/Mr.Pig/MrPig.scnassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 				2411BAE61F2EEC10000E4197 /* ViewController.swift */,
 				24AB62711F2EF35D00B8CE3B /* GameUtils */,
 				2411BAE81F2EEC10000E4197 /* Main.storyboard */,
-				24AB627A1F2EF39300B8CE3B /* MrPig.scnassets */,
+				246888621F2F32B90083B9E8 /* MrPig.scnassets */,
 				2411BAEB1F2EEC10000E4197 /* Assets.xcassets */,
 				2411BAED1F2EEC10000E4197 /* LaunchScreen.storyboard */,
 				2411BAF01F2EEC10000E4197 /* Info.plist */,
@@ -146,7 +146,7 @@
 				2411BAEF1F2EEC10000E4197 /* LaunchScreen.storyboard in Resources */,
 				2411BAEC1F2EEC10000E4197 /* Assets.xcassets in Resources */,
 				2411BAEA1F2EEC10000E4197 /* Main.storyboard in Resources */,
-				24AB627B1F2EF39400B8CE3B /* MrPig.scnassets in Resources */,
+				246888631F2F32BC0083B9E8 /* MrPig.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
